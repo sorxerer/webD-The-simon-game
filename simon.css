@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(to right  ,rgb(68, 245, 233),rgb(18, 202, 222),rgb(41, 216, 146) ,rgb(46, 252, 118));
+}
+.container{
+    display: flex; justify-content: center; align-items: center; height: 75vh;
+}
+.box{
+  
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.b{
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    border: none;
+
+}
+.b:active{
+  
+    border: 2px solid black;
+ 
+
+
+
+}
+.animate{
+    border: 5px solid rgb(0, 0, 0);
+    opacity: 0.6;
+
+}
+body {
+    text-align: center;
+    background-color: #011F3F;
+  }
+
+  
+.b:hover{
+    opacity: 0.8;
+}
+*{
+    user-select: none;
+}
+#red{
+    background-color: red; border-top-left-radius:100% ;
+}
+#blue{
+    background-color: blue; border-bottom-left-radius:100% ;
+}
+#green{
+    background-color: green; border-top-right-radius:100% ;
+}
+#yellow{
+    background-color: yellow; border-bottom-right-radius:100% ;
+}
+.simongame{
+    font-size: 30px;font-family: 'Press Start 2P';color: rgb(84, 6, 6); user-select: none;
+}
+.innercircle{
+    height: 220px ; width: 220px; z-index: 1; position: absolute; background-color: rgb(94, 248, 235); left: 140px; top: 140px;
+        border-radius: 50%;border: 5px solid rgb(0, 0, 0); display: flex; justify-content: center; align-items: center;
+}
+#heading{
+    font-family: 'Press Start 2P'; display: flex; justify-content: space-around; flex-wrap: wrap; column-gap: 40px;
+} 
+.over{
+    background: red;
+  opacity: 0.8;
+}
+@media(max-width:540px){
+    .box{
+        height: 325px ;
+        width: 325px;
+        position: relative;    
+    }
+  
+    .innercircle{
+        height: 150px ; width: 150px; left: 26%; top: 25%; 
+    }
+    .simongame{
+        font-size: 20px;
+    }
+}

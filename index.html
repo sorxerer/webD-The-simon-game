@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simon mine</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="simon.css">
+</head>
+<body>
+   
+    <h1 id="heading" ><p id="score"></p>
+    <p id="level"  ></p>
+    
+</h1>
+    <div class="container">
+       
+    <div class="box" style="position: relative;"> 
+        <div class="innercircle"><div>
+        <div class="simongame">Simon game</div>
+        <button id="gameon" style="margin-top: 20px; height: 30px; border-radius: 50px; background-color:rgb(255, 255, 255);
+         font-family: 'Press Start 2P'; user-select: none;" onclick="gameMain()">START</button></div></div>
+        <button class="b" id="red" style="background-color: red;" ></button>
+        <button class="b" id="green" style="background-color: green;" ></button>
+        <button class="b" id="blue" style="background-color: blue;" ></button>
+        <button class="b" id="yellow" style="background-color: yellow;" ></button>
+    </div></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
